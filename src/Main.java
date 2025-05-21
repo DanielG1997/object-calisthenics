@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Criando cliente e valor total
-        Cliente cliente = new Cliente("David Henrique");
+        Cliente cliente = new Cliente("Daniel Galvao");
         ValorTotal valorTotal = new ValorTotal(4500.0);
 
         // Criando detalhes da venda e adicionando itens
@@ -11,7 +11,7 @@ public class Main {
         detalhes.adicionarItem(new ItemVenda("Teclado Gamer"));
         detalhes.adicionarItem(new ItemVenda("Mesa em Gamer"));
         detalhes.adicionarItem(new ItemVenda("Microfone"));
-        detalhes.adicionarItem(new ItemVenda("Mause Gamer"));
+        detalhes.adicionarItem(new ItemVenda("Mouse Gamer"));
 
         // Criando venda
         Venda venda = new Venda(cliente, detalhes);
